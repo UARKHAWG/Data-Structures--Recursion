@@ -2,13 +2,13 @@ from collections import deque
 
 class stack:
     def __init__(self):
-        pass
+        self.data = deque()
 
     def push(self, value):
-        pass
+        self.append(value)
 
     def pop(self):
-        pass
+        self.data.pop()
 
 # Test cases:
 myStack = stack()
