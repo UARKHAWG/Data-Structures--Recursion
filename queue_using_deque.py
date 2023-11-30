@@ -1,3 +1,6 @@
+'''
+queue class and example
+'''
 from collections import deque
 
 class queue:
